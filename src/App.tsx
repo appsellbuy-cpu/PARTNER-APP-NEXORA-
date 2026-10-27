@@ -50,6 +50,7 @@ import RealProblemVsSolution from './components/RealProblemVsSolution';
 import NexoraInfographic from './components/NexoraInfographic';
 import ProductShowcase from './components/ProductShowcase';
 import TrustSection from './components/TrustSection';
+import SalonRevenuePerformance from './components/SalonRevenuePerformance';
 
 export default function App() {
   const [isAdminOpen, setIsAdminOpen] = useState(false);
@@ -286,6 +287,7 @@ export default function App() {
 
       <NexoraInfographic />
       <ProductShowcase />
+      <SalonRevenuePerformance />
       <TrustSection />
 
       {/* S3: PROBLEM VS SOLUTION */}

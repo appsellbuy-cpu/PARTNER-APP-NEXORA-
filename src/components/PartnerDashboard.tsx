@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import SalonRevenueChart from './SalonRevenueChart';
 import { 
   Building, CheckCircle, ShieldAlert, Award, TrendingUp, IndianRupee, 
   HelpCircle, Sparkles, Clock, LineChart, Cpu, ArrowRight, UserCheck, 
@@ -608,6 +609,8 @@ export default function PartnerDashboard() {
                   ACTIVE
                 </span>
               </div>
+              
+              <SalonRevenueChart />
 
             </div>
 
